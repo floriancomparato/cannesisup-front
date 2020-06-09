@@ -1,0 +1,24 @@
+footer {
+  background-color: #1da1f2;
+  height: 208px;
+  position:relative;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.copyright {
+  font-size: 12px;
+  color: #f7f7f7 !important;
+  margin: 5px;
+}
+
+.socialIcon:hover {
+  filter: invert(2);
+  mix-blend-mode: difference;
+}
+

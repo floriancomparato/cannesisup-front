@@ -1,0 +1,39 @@
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-top: 5px solid #1da1f2;
+  margin: 0;
+  padding: 0;
+  height: 85px;
+}
+
+.topnav a,
+li {
+  float: left;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  list-style: none;
+  padding: 0 15px;
+  line-height: 80px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #454545;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.topnav a:hover,
+li:hover {
+  background-color: white;
+  color: #f7316b;
+}
+
+img {
+  float: left;
+}

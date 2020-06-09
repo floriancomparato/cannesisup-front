@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  background-color: #f3f5f7;
+  
+}
+.col-md-5 {
+  margin: 80px auto;
+}
+.inputLogin {
+  border: 2px solid #d6d1d3;
+}
+.buttonLogin {
+  border: 2px solid #f7316b;
+  color: #f7316b;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: white;
+}
+.buttonLogin1 {
+  border: 2px solid #f7316b;
+  color: #f7316b;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-right: 80px;
+  background-color: white;
+}
+.buttonLogin1:hover {
+  background-color: #f7316b;
+  color: white;
+}
+.buttonLogin:hover {
+  background-color: #f7316b;
+  color: white;
+}
+
+.h2Login {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 60px;
+}
+
+.h2Login::before {
+  /* content: url("/images/logo.png"); */
+  position: absolute;
+  top: 1.3em;
+  left: 0.6em;
+  /* margin-top: -1em; */
+}
+.hrLogin {
+  border-top: 2px solid #f7316b;
+  width: 200px;
+}
+
+.headerLogin {
+  background-image: url("/images/fond_contact.jpg");
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+}
+.mdpOublie:hover {
+  text-decoration: none;
+}
+
+
+.containerLogin {
+  padding-top: 80px;
+}

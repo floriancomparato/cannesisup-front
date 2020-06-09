@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.containerAnnuaire {
+  padding-top: 80px;
+}
+
+/*Profile card 4*/
+.hrCard {
+  border-top: 2px solid #d6d1d3;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+*:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+section {
+  float: left;
+  width: 100%;
+  background: #fff; /* fallback for old browsers */
+  padding: 30px 0;
+}
+.logoAnnuaire {
+  height: 60px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h1 {
+  float: left;
+  width: 100%;
+  color: #232323;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+h1 span {
+  font-family: "Libre Baskerville", serif;
+  display: block;
+  font-size: 45px;
+  text-transform: none;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+h1 a {
+  color: #131313;
+  font-weight: bold;
+}
+
+.buttonCard {
+  border: 2px solid #f7316b;
+  color: #f7316b;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: white;
+  width: 250px;
+}
+.buttonCard:hover {
+  background-color: #f7316b;
+  color: white;
+}
+.titleCard {
+  color: #1da1f2;
+  font-weight: bold;
+  font-size: 20px;
+}
+.profile-card-4 p {
+  text-align: center;
+}
+.profile-card-4 {
+  border: 2px solid #d6d1d3;
+  border-radius: 10px;
+}
+.profile-card-4 .img-fluid {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+.profile-card-4 .card-title {
+  color: #f7316b;
+  text-transform: uppercase;
+}
+
+.profile-card-4 .card-img-block {
+  float: left;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+.profile-card-4 .card-body {
+  position: relative;
+}
+.profile-card-4 .profile {
+  border-radius: 50%;
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  max-width: 130px;
+  max-height: 130px;
+  border: 3px solid rgba(255, 255, 255, 1);
+  margin-left: -60px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.profile-card-4 .card-body img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.profile-card-4 .card-img-block {
+  position: relative;
+}
+.profile-card-4 .card-img-block > .info-box {
+  position: absolute;
+  background: rgba(217, 11, 225, 0.6);
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  opacity: 0;
+}
+.profile-card-4 .card-img-block:hover > .info-box {
+  opacity: 1;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.profile-card-4 h5 {
+  font-weight: 600;
+  color: #d90be1;
+}
+.profile-card-4 .card-text {
+  font-weight: 300;
+  font-size: 15px;
+}
+.profile-card-4 .icon-block {
+  float: left;
+  width: 100%;
+}
+.profile-card-4 .icon-block a {
+  text-decoration: none;
+}
+.profile-card-4 i {
+  display: inline-block;
+  font-size: 16px;
+  color: #d90be1;
+  text-align: center;
+  border: 1px solid #d90be1;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.profile-card-4 i:hover {
+  background-color: #d90be1;
+  color: #fff;
+}
+.headerAnnuaire {
+  background-image: url("/images/fond_equipe.jpg");
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.h2Annuaire {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 60px;
+}
+.hrAnnuaire {
+  border-top: 2px solid #f7316b;
+  width: 200px;
+}

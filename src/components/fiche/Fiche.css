@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.body {
+  background-color: #cce8fa;
+}
+.colorFiche {
+  color: #666464;
+}
+.sizeFiche {
+  font-size: 15px;
+}
+.conteneurFiche {
+  width: 80%;
+  margin: auto;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.conteneurHeaderFiche {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.logoFiche img {
+  width: 250px;
+}
+.logoFiche {
+  flex: 2;
+}
+.brochureFiche {
+  font-weight: bold;
+  font-size: 13px;
+  text-align: right;
+  flex: 1;
+}
+.downFiche {
+  padding-left: 15px;
+  padding-top: 5px;
+  flex: 0.2;
+}
+.titreFiche {
+  font-family: "Roboto", sans-serif;
+  color: #f7316b;
+  font-weight: 900;
+  font-size: 22px;
+}
+.cardFiche1 {
+  padding-bottom: 15px;
+  border-bottom: 1.5px solid #d6d1d3;
+}
+.cardFiche2 {
+  padding-bottom: 15px;
+  border-bottom: 1.5px solid #d6d1d3;
+}
+.pFiche1 {
+  /* font-family: "Roboto", sans-serif; */
+  color: #1da1f2;
+  font-size: 20px;
+  font-weight: 700;
+}
+.pFiche2 {
+  /* font-family: "Roboto", Arial, Helvetica, sans-serif; */
+  font-size: 17px;
+  font-weight: bold;
+  /* line-height: 0; */
+}
+.imgFiche1 {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.coordonneeFiche {
+  font-weight: bold;
+  width: 150px;
+}
+.donneeFiche {
+  width: 500px;
+}
+.card2Fiche {
+  line-height: normal;
+  padding-top: 70px;
+}
+.profileFiche {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 85%;
+  left: 50%;
+  max-width: 150px;
+  max-height: 150px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid #d6d1d3;
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  object-fit: cover;
+}
+.card-body img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}

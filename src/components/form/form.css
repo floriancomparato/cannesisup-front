@@ -1,0 +1,64 @@
+.containerFormulaire {
+  padding-top: 200px;
+  margin: auto;
+}
+.boutonMembre {
+  text-align: right;
+  padding-right: 50px;
+  padding-bottom: 100px;
+}
+/* .container-fluid {
+  width: 80%;
+  background-color: antiquewhite;
+} */
+.col-md-6 {
+  margin: auto;
+}
+
+.hrForm1 {
+  border-top: 3px solid #f7316b;
+  width: 200px;
+}
+#titleForm {
+  color: #454545;
+  text-align: center;
+  text-transform: uppercase;
+}
+.bouttons {
+  text-align: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+.buttonForm {
+  border: 2px solid #f7316b;
+  color: #f7316b;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: white;
+  margin-right: 20px;
+}
+.buttonForm:hover {
+  background-color: #f7316b;
+  color: white;
+}
+.hrForm2 {
+  border-top: 1px solid #f7316b;
+  width: 900px;
+}
+.hrForm3 {
+  border-top: 1px solid #f7316b;
+  width: 900px;
+}
+.hrForm4 {
+  border-top: 1px solid #f7316b;
+  width: 900px;
+}
+.hrForm5 {
+  border-top: 1px solid #f7316b;
+  width: 900px;
+}
+.hrForm6 {
+  border-top: 1px solid #f7316b;
+  width: 900px;
+}
